@@ -44,7 +44,7 @@
     color: white;
     border: none;
     background-color: #df3f3f;
-    margin-top: 27px;
+    margin-top: 56px;
     transition: .5s;
 }
 
@@ -137,8 +137,17 @@ footer a p:hover {
     opacity: .7;
 }
 
+.mobile-footer-nav{
+  position: relative;
+  top: 30px;
+}
+
 .no-padding-left{
   padding-left: 0px;
+}
+
+.no-padding-right{
+  padding-right: 0px;
 }
 
 .left-brain-btn {
@@ -166,5 +175,21 @@ footer a p:hover {
   .social-icons {
       text-align: center;
       -webkit-padding-start: 0px;
+      padding-bottom: 30px;
+      padding-top: 10px;
+  }
+  .left-brain-btn {
+    background-color: #4d555c;
+    padding-top: 21px;
+    padding-bottom: 28px;
+    padding-right: 3px;
+    float: left;
+    transition: .5s;
+    text-align: center;
+    position: relative;
+    top: -30px;
+  }
+  .mobile-footer-nav{
+    text-align:center;
   }
 }
